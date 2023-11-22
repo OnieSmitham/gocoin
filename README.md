@@ -1,6 +1,6 @@
 # About Gocoin
 
-**Gocoin** is a full **Bitcoin** solution written in Go language (golang).
+ *Gocoin** is a full **Bitcoin** solution written in Go language (golang).
 
 The software architecture is focused on maximum performance of the node
 and cold storage security of the wallet.
@@ -17,7 +17,7 @@ and - in consequece - an extraordinary blochchain processing performance.
 System memory and time Gocoin client 1.10.1 needs to sync the blockchain up to
 the given block number, with comparision to Bitcoin Core 23.0:
 
-![SyncChart](website/quick_sync_gocoin_vs_core.png)
+#[SyncChart](website/quick_sync_gocoin_vs_core.png)
 *The above data was collected using [Hetzner](https://hetzner.com) dedicated server
 with 3.6GHz Intel i7-7700 CPU, 2x512MB SSD and 1Gbit internet connection,
 running Debian 11 (bullseye).
@@ -25,7 +25,7 @@ Clients using their default configuration, except for the second (blue) Bitcoin 
 that is set to use **dbcache=16384**.<br/>
 For other performance charts see [gocoin.pl](https://gocoin.pl/gocoin_performance.html) website.*
 
-# Requirements
+  Requirements
 
 ## Hardware
 
@@ -114,3 +114,4 @@ for possible ways of contacting me.
 
 If you want to support this project, I ask you to run your own Gocoin node, prefably with TCP port 8333
 open for the outside world. Do not hestiate to report any issues you find.
+ 
